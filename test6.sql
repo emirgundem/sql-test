@@ -12,3 +12,5 @@ select count(*) from payment
 
 
 select round (avg(amount)) from payment
+
+select round(avg(amount)), min (amount), max(amount),  sum (amount), count(*) from payment
