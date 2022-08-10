@@ -10,3 +10,5 @@ select sum(amount) from payment
 
 select count(*) from payment
 
+
+select round (avg(amount)) from payment
