@@ -15,3 +15,10 @@ create table author (
 	birthday Date 
 );
 
+
+insert into author(first_name,last_name,email,birthday) 
+values 
+('Haruki','Murakami','haruki@murakami.com','1948-11-04'),
+('Sabahattin', 'Ali','sabahattinali@mail.com','1955-12-07');
+
+
