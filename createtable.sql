@@ -22,3 +22,16 @@ values
 ('Sabahattin', 'Ali','sabahattinali@mail.com','1955-12-07');
 
 
+
+create table author2 (like author);
+
+
+insert into author2 select * from author where first_name = 'Sabahattin'
+
+
+create table author3 as select * from author
+
+--Delete Table
+drop table author2
+
+drop table if exists author2
